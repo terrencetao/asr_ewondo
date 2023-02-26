@@ -1,0 +1,19 @@
+ID,duration,wav,spk_id,wrd
+test-Recording-18,8.64,datasets/Phrases/test/Recording-18.wav,18,mə nə mod bitá mə nə mod bitá mə nə mod bitá
+test-Recording-23,7.424,datasets/Phrases/test/Recording-23.wav,23,ma wóg zie ma wóg zie ma wóg zie
+test-Recording-39,13.056,datasets/Phrases/test/Recording-39.wav,39,esyâ bə́ngɔnɔ a nyǔ məyɔg esyâ bə́ngɔnɔ a nyǔ məyɔg esyâ bə́ngɔnɔ a nyǔ məyɔg
+test-Recording-42,6.656,datasets/Phrases/test/Recording-42.wav,42,mɔ́ngɔ́ məwóg mɔ́ngɔ́ məwóg mɔ́ngɔ́ məwóg
+test-Recording-54,8.064,datasets/Phrases/test/Recording-54.wav,54,mayi nə ma dí mayi nə ma dí mayi nə ma dí
+test-Recording-56,10.816,datasets/Phrases/test/Recording-56.wav,56,wa nyiŋ âbə zá  wa nyiŋ âbə zá  wa nyiŋ âbə zá
+test-Recording-57,10.048,datasets/Phrases/test/Recording-57.wav,57,wa dzə́ŋ dzé  wa dzə́ŋ dzé  wa dzə́ŋ dzé
+test-Recording-73,10.624,datasets/Phrases/test/Recording-73.wav,73,nyɔá anə vé  nyɔá anə vé  nyɔá anə vé
+test-Recording-83,10.304,datasets/Phrases/test/Recording-83.wav,83,akúma dáma dí akúma dáma dí akúma dáma dí
+test-STE-012,1.304625,datasets/Phrases/test/STE-012.wav,012,mə nə mod bitá
+test-STE-017,1.3325,datasets/Phrases/test/STE-017.wav,017,ma wóg zie
+test-STE-033,2.4029375,datasets/Phrases/test/STE-033.wav,033,esyâ bə́ngɔnɔ a nyǔ məyɔg
+test-STE-036,0.9595625,datasets/Phrases/test/STE-036.wav,036,mɔ́ngɔ́ məwóg
+test-STE-047,1.4611875,datasets/Phrases/test/STE-047.wav,047,mayi nə ma dí
+test-STE-049,1.6085,datasets/Phrases/test/STE-049.wav,049,wa nyiŋ âbə zá
+test-STE-050,1.0706875,datasets/Phrases/test/STE-050.wav,050,wa dzə́ŋ dzé
+test-STE-065,1.247,datasets/Phrases/test/STE-065.wav,065,nyɔá anə vé
+test-STE-074,1.3504375,datasets/Phrases/test/STE-074.wav,074,akúma dáma dí
