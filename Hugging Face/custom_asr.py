@@ -190,14 +190,7 @@ def map_to_result(batch):
     
     return batch
 
-def map_to_result_lm(batch):
-    with torch.no_grad():
-        input_value = torch.tensor(batch["input_values"], device="cuda").unsqueeze(0)
-        logits = model(input_value).logits
-    pred_ids = torch.argmax(logits, dim=-1)
-    batch['pred_str'] = processor_with_lm.batch_decode(pred_ids)[0]
-    batch['target'] = processor_with_lm.decode(batch['labels'], group_tokens=False)
-    return batch
+
 
 train_data = create_batch(hparams["train_csv"])
 dev_data = create_batch(hparams["valid_csv"])
@@ -260,7 +253,7 @@ training_args = TrainingArguments(
   per_device_train_batch_size=8,
   gradient_accumulation_steps=2,
   evaluation_strategy="steps",
-  num_train_epochs=60,
+  num_train_epochs=1,
   fp16=True,
   gradient_checkpointing=True, 
   save_steps=100,
