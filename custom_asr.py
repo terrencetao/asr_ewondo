@@ -35,7 +35,7 @@ hparams = {
 'seed': 1986,
 
 # URL for  wav2vec2 model.
-'wav2vec2_hub': 'lucio/wav2vec2-large-xlsr-luganda',
+'wav2vec2_hub': 'facebook/wav2vec2-large-xlsr-53',
 
 # Data files
 'data_folder': 'datasets/Phrases',
