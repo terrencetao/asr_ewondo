@@ -2,7 +2,7 @@ asr_ewondo
 
  This is the model for Wav2Vec2-Large-XLSR-Ewondo, a fine-tuned facebook/wav2vec2-large-xlsr-53 model on the dataset collected by the IDASCO Team
 ### 0. Setup Environment :
- torch
+ - torch
  json
  codecs
  datasets 
@@ -30,5 +30,5 @@ sentences for the test (2min30s) and 92 remaining sentences for the
 training (21min51s)
 
 #### 1.3 running:
-`python custom_asr.py` # for single validation
-`python custom_asr_cross.py` #for a kind of cross validation
+- `python custom_asr.py` # for single validation
+- `python custom_asr_cross.py` #for a kind of cross validation
