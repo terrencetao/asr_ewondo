@@ -30,4 +30,5 @@ sentences for the test (2min30s) and 92 remaining sentences for the
 training (21min51s)
 
 #### 1.3 running:
-`python custom_asr.py`
+`python custom_asr.py` # for single validation
+`python custom_asr_cross.py` #for a kind of cross validation
