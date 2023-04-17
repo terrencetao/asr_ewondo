@@ -11,7 +11,7 @@ from transformers import Wav2Vec2FeatureExtractor
 from transformers import Wav2Vec2Processor
 from transformers import Wav2Vec2ForCTC
 from data_prepare import prepare_data
-from format_dataset import format_datatest
+from format_dataset import format_dataset
 import speechbrain as sb
 from speechbrain.utils.distributed import run_on_main
 import pandas as pd
@@ -24,6 +24,8 @@ import numpy as np
 import sentencepiece as spm
 from speechbrain.lobes.augment import TimeDomainSpecAugment
 import random 
+import os
+import shutil
 do_augment= TimeDomainSpecAugment (speeds=[80, 110, 120],
                                    perturb_prob=1.0,
                                    drop_freq_prob=1.0,
@@ -39,7 +41,7 @@ hparams = {
 'wav2vec2_hub': 'facebook/wav2vec2-large-xlsr-53',
 
 # Data files
-'original_folder': 'multi-speakers',
+'original_folder': 'Corpus Phrases simples',
 'data_folder': 'datasets/',
 'train_splits': ["train"],
 'dev_splits': ["dev"],
@@ -52,9 +54,10 @@ hparams = {
 'vocab_file': "data/vocab_char.json",
 'tok_model': 'data/m_char.model',
 'wer_file':"results/wer_test.csv",
-'lm':'results/2gram.arpa',
+'lm':'data/2gram.arpa',
 'wer_lm_file':"results/wer_lm_test.csv",
 'nb_cross': 10,
+'epoch':60,
 # training parameter
 'sample_rate': 16000
 }
@@ -229,7 +232,7 @@ def store_resutl(results, fichier):
     df.to_csv(fichier)
     print('Test wer : {:.3f}'.format(wer_metric.compute(predictions=pred_str, references=label_str)))
     print('\nTest cer : {:.3f}'.format(cer_mertric.compute(predictions=pred_str, references=label_str)))
-    return wer_metric.compute(predictions=pred_str, references=label_str), cer_mertric.compute(predictions=pred_str, references=label_str)
+    return (wer_metric.compute(predictions=pred_str, references=label_str), cer_mertric.compute(predictions=pred_str, references=label_str))
 
 wers = []
 cers = []
@@ -237,7 +240,9 @@ wers_lm = []
 cers_lm = []
 
 for i in range(hparams['nb_cross']):
-    format_datatset(data_folder=hparams['original_folder'],
+    if os.path.exists(hparams['output_folder']):
+        shutil.rmtree(hparams['output_folder'], ignore_errors=True)
+    format_dataset(data_folder=hparams['original_folder'],
     save_folder='datasets', test_per=0.10, dev_per=0.10,nb_loc=5, dev=False, seed=hparams['seed'])
     run_on_main(
             prepare_data,
@@ -303,7 +308,7 @@ for i in range(hparams['nb_cross']):
       per_device_train_batch_size=8,
         gradient_accumulation_steps=2,
         evaluation_strategy="steps",
-        num_train_epochs=60,
+        num_train_epochs=hparams['epoch'],
         gradient_checkpointing=True,
         fp16=True,
         save_steps=100,
@@ -339,8 +344,9 @@ for i in range(hparams['nb_cross']):
 
 
     wer, cer = store_resutl(results, hparams['wer_file'])
-    wers.append(wers)
-    cers.append(cers)
+    print(str(wer) +'  ' +str(cer))
+    wers.append(wer)
+    cers.append(cer)
 
 
 
@@ -367,12 +373,12 @@ for i in range(hparams['nb_cross']):
     wer_lm, cer_lm = store_resutl(result_lm, hparams['wer_lm_file'])
     wers_lm.append(wer_lm)
     cers_lm.append(cer_lm)
-
-print('Test wer : {:.3f}'.format(sum(wers) / len(wers)))
-print('\nTest cer : {:.3f}'.format(sum(cers) / len(cers)))
+print(wers)
+print('Test cross wer : {:.3f}'.format(sum(wers) / len(wers)))
+print('\nTest cross cer : {:.3f}'.format(sum(cers) / len(cers)))
 
 
 print('\n\n\n\n results with lm')
 
-print('Test wer : {:.3f}'.format(sum(wers) / len(wers)))
-print('\nTest cer : {:.3f}'.format(sum(cers) / len(cers)))
+print('Test cross wer lm : {:.3f}'.format(sum(wers_lm) / len(wers_lm)))
+print('\nTest cross cer lm : {:.3f}'.format(sum(cers_lm) / len(cers_lm)))

@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 import shutil
 import os
-def format_datatest(data_folder,
+def format_dataset(data_folder,
     save_folder, test_per, dev_per,nb_loc,seed, dev=False):
     """
     This class prepare the dataset.
@@ -20,7 +20,9 @@ def format_datatest(data_folder,
     """
     
     data = pd.read_csv(os.path.join(data_folder,'transcription.csv'),dtype={'ID': 'str'})
+
     train, test = train_test_split(data, test_size=test_per, random_state =seed)
+    
     if dev :
     	test, dev = train_test_split(test, test_size=dev_per, random_state=seed)
     else:
@@ -42,7 +44,7 @@ def format_datatest(data_folder,
 
 def create_folder(df,save_folder,data_folder,nb_loc):
     os.makedirs(save_folder)
-    df[['Ewondo']].to_csv(os.path.join(save_folder,"transcription.txt"),header=False, index=False)
+    df[['ID','Ewondo']].astype({'ID': 'str'}).to_csv(os.path.join(save_folder,"transcription.txt"),header=False, index=False, sep = " ")
     for i in range(1,nb_loc): 
         if i<10:
             loc = 'loc_00'+ str(i)
