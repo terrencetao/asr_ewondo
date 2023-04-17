@@ -18,6 +18,7 @@ asr_ewondo
  tqdm
  numpy
  sentencepiece
+ pyctcdecode
  - kenlm for the n-gram (https://github.com/kpu/kenlm/blob/master/lm/builder/README.md)
 
 All the python packages can be installed via `pip install`
