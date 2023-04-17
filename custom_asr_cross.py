@@ -11,6 +11,7 @@ from transformers import Wav2Vec2FeatureExtractor
 from transformers import Wav2Vec2Processor
 from transformers import Wav2Vec2ForCTC
 from data_prepare import prepare_data
+from format_dataset import format_datatest
 import speechbrain as sb
 from speechbrain.utils.distributed import run_on_main
 import pandas as pd
@@ -53,26 +54,14 @@ hparams = {
 'wer_file':"results/wer_test.csv",
 'lm':'results/2gram.arpa',
 'wer_lm_file':"results/wer_lm_test.csv",
+'nb_cross': 10,
 # training parameter
 'sample_rate': 16000
 }
 
 random.seed(hparams['seed'])
 
-run_on_main(
-        prepare_data,
-        kwargs={
-            "data_folder": hparams["data_folder"],
-            "tr_splits": hparams["train_splits"],
-            "dev_splits": hparams["dev_splits"],
-            "te_splits": hparams["test_splits"],
-            "save_folder": hparams["output_folder"],
-            "merge_lst": hparams["train_splits"],
-            "merge_name": "train.csv",
-            "skip_prep": hparams["skip_prep"],
-            
-        },
-    )
+
 
 def prepare_dataset(batch):
         audio = batch["audio"]
@@ -240,131 +229,150 @@ def store_resutl(results, fichier):
     df.to_csv(fichier)
     print('Test wer : {:.3f}'.format(wer_metric.compute(predictions=pred_str, references=label_str)))
     print('\nTest cer : {:.3f}'.format(cer_mertric.compute(predictions=pred_str, references=label_str)))
-    return True
+    return wer_metric.compute(predictions=pred_str, references=label_str), cer_mertric.compute(predictions=pred_str, references=label_str)
 
-    
-train_data = create_batch(hparams["train_csv"], aug=False)
-dev_data = create_batch(hparams["valid_csv"],aug=False)
-test_data = create_batch(hparams["test_csv"],aug=False)
+wers = []
+cers = []
+wers_lm = []
+cers_lm = []
 
-#vocab_train = set(y for x in train_data for y in x['sentence'])
-#vocab_dev = set(y for x in dev_data for y in x['sentence'])
-#vocab_test =  set(y for x in test_data for y in x['sentence'])
-#vocab1 = vocab_train.union(vocab_dev)
-#vocab = vocab1.union(vocab_test)
-#sp = spm.SentencePieceProcessor(model_file=hparams['tok_model'])
-#vocabs = [sp.id_to_piece(id) for id in range(sp.get_piece_size())]
-
-#if "\n" in vocabs:
-#    vocab.remove("\n")
-#vocab_dict = {v: k for k, v in enumerate(sorted(vocabs))}
-#vocab_dict["|"] = vocab_dict[" "]
-#del vocab_dict[" "]
-#vocab_dict["[UNK]"]= len(vocab_dict)
-#vocab_dict["[PAD]"]= len(vocab_dict)
-#with codecs.open(hparams['vocab_file'], 'w', encoding="UTF-8") as vocab_file:
-#    json.dump(vocab_dict, vocab_file, ensure_ascii=False)
-
-print('vocabulaire created')
-
-tokenizer = Wav2Vec2CTCTokenizer(hparams['vocab_file'], unk_token="[UNK]", pad_token="[PAD]", word_delimiter_token="|")
-
-feature_extractor = Wav2Vec2FeatureExtractor(feature_size=1, sampling_rate=16000, padding_value=0.0, do_normalize=True, return_attention_mask=False)
+for i in range(hparams['nb_cross']):
+    format_datatset(data_folder=hparams['original_folder'],
+    save_folder='datasets', test_per=0.10, dev_per=0.10,nb_loc=5, dev=False, seed=hparams['seed'])
+    run_on_main(
+            prepare_data,
+            kwargs={
+                "data_folder": hparams["data_folder"],
+                "tr_splits": hparams["train_splits"],
+                "dev_splits": hparams["dev_splits"],
+                "te_splits": hparams["test_splits"],
+                "save_folder": hparams["output_folder"],
+                "merge_lst": hparams["train_splits"],
+                "merge_name": "train.csv",
+                "skip_prep": hparams["skip_prep"],
+                
+            },
+        )
+        
+    train_data = create_batch(hparams["train_csv"], aug=False)
+    dev_data = create_batch(hparams["valid_csv"],aug=False)
+    test_data = create_batch(hparams["test_csv"],aug=False)
 
 
-processor = Wav2Vec2Processor(feature_extractor=feature_extractor, tokenizer=tokenizer)
+
+    print('vocabulaire created')
+
+    tokenizer = Wav2Vec2CTCTokenizer(hparams['vocab_file'], unk_token="[UNK]", pad_token="[PAD]", word_delimiter_token="|")
+
+    feature_extractor = Wav2Vec2FeatureExtractor(feature_size=1, sampling_rate=16000, padding_value=0.0, do_normalize=True, return_attention_mask=False)
 
 
-data_collator = DataCollatorCTCWithPadding(processor=processor, padding=True)
-
-wer_metric = load_metric("wer")
-cer_mertric= load_metric("cer")
-
-train_data = list(map(prepare_dataset, train_data))
-dev_data = list(map(prepare_dataset, dev_data))
-test_data = list(map(prepare_dataset, test_data))
+    processor = Wav2Vec2Processor(feature_extractor=feature_extractor, tokenizer=tokenizer)
 
 
-model = Wav2Vec2ForCTC.from_pretrained(
-        hparams['wav2vec2_hub'], 
-        attention_dropout=0.1,
-        hidden_dropout=0.1,
-        feat_proj_dropout=0.1,
-        mask_time_prob=0.075,
-        layerdrop=0.1,
-        ctc_loss_reduction="mean", 
-        pad_token_id=processor.tokenizer.pad_token_id,
-        vocab_size=len(processor.tokenizer),
-        ignore_mismatched_sizes=True,
+    data_collator = DataCollatorCTCWithPadding(processor=processor, padding=True)
+
+    wer_metric = load_metric("wer")
+    cer_mertric= load_metric("cer")
+
+    train_data = list(map(prepare_dataset, train_data))
+    dev_data = list(map(prepare_dataset, dev_data))
+    test_data = list(map(prepare_dataset, test_data))
+
+
+    model = Wav2Vec2ForCTC.from_pretrained(
+            hparams['wav2vec2_hub'], 
+            attention_dropout=0.1,
+            hidden_dropout=0.1,
+            feat_proj_dropout=0.1,
+            mask_time_prob=0.075,
+            layerdrop=0.1,
+            ctc_loss_reduction="mean", 
+            pad_token_id=processor.tokenizer.pad_token_id,
+            vocab_size=len(processor.tokenizer),
+            ignore_mismatched_sizes=True,
+        )
+
+    model.freeze_feature_extractor()
+
+
+
+    training_args = TrainingArguments(
+      output_dir=hparams['output_folder'],
+      group_by_length=True,
+      per_device_train_batch_size=8,
+        gradient_accumulation_steps=2,
+        evaluation_strategy="steps",
+        num_train_epochs=60,
+        gradient_checkpointing=True,
+        fp16=True,
+        save_steps=100,
+        eval_steps=30,
+        logging_steps=50,
+        learning_rate=3e-4,
+        warmup_steps=500,
+        save_total_limit=1,
+        push_to_hub=False,
+
     )
 
-model.freeze_feature_extractor()
 
+    trainer = Trainer(
+        model=model,
+        data_collator=data_collator,
+        args=training_args,
+        compute_metrics=compute_metrics,
+        train_dataset=train_data,
+        eval_dataset=dev_data,
+        tokenizer=processor.feature_extractor,
+    )
 
+    print('starting training')
+    trainer.train()
+    model.save_pretrained(hparams['output_folder'])
+    tokenizer.save_pretrained(hparams['output_folder'])
+    processor.save_pretrained(hparams['output_folder'])
 
-training_args = TrainingArguments(
-  output_dir=hparams['output_folder'],
-  group_by_length=True,
-  per_device_train_batch_size=8,
-    gradient_accumulation_steps=2,
-    evaluation_strategy="steps",
-    num_train_epochs=60,
-    gradient_checkpointing=True,
-    fp16=True,
-    save_steps=100,
-    eval_steps=30,
-    logging_steps=50,
-    learning_rate=3e-4,
-    warmup_steps=500,
-    save_total_limit=1,
-    push_to_hub=False,
-
-)
-
-
-trainer = Trainer(
-    model=model,
-    data_collator=data_collator,
-    args=training_args,
-    compute_metrics=compute_metrics,
-    train_dataset=train_data,
-    eval_dataset=dev_data,
-    tokenizer=processor.feature_extractor,
-)
-
-print('starting training')
-trainer.train()
-model.save_pretrained(hparams['output_folder'])
-tokenizer.save_pretrained(hparams['output_folder'])
-processor.save_pretrained(hparams['output_folder'])
-
-results = map(map_to_result, test_data)
+    results = map(map_to_result, test_data)
 
 
 
 
-store_resutl(results, hparams['wer_file'])
+    wer, cer = store_resutl(results, hparams['wer_file'])
+    wers.append(wers)
+    cers.append(cers)
 
 
 
-vocab_dict = processor.tokenizer.get_vocab()
-sorted_vocab_dict = {k.lower(): v for k, v in sorted(vocab_dict.items(), key=lambda item: item[1])}
+    vocab_dict = processor.tokenizer.get_vocab()
+    sorted_vocab_dict = {k.lower(): v for k, v in sorted(vocab_dict.items(), key=lambda item: item[1])}
 
-from pyctcdecode import build_ctcdecoder
-from transformers import Wav2Vec2ProcessorWithLM
+    from pyctcdecode import build_ctcdecoder
+    from transformers import Wav2Vec2ProcessorWithLM
 
-decoder = build_ctcdecoder(
-    labels=list(sorted_vocab_dict.keys()),
-    kenlm_model_path=hparams['lm'],
-)
+    decoder = build_ctcdecoder(
+        labels=list(sorted_vocab_dict.keys()),
+        kenlm_model_path=hparams['lm'],
+    )
 
 
 
-processor_with_lm = Wav2Vec2ProcessorWithLM(
-    feature_extractor=processor.feature_extractor,
-    tokenizer=processor.tokenizer,
-    decoder=decoder
-)
+    processor_with_lm = Wav2Vec2ProcessorWithLM(
+        feature_extractor=processor.feature_extractor,
+        tokenizer=processor.tokenizer,
+        decoder=decoder
+    )
 
-result_lm = map(map_to_result_lm, test_data)
-store_resutl(result_lm, hparams['wer_lm_file'])
+    result_lm = map(map_to_result_lm, test_data)
+    wer_lm, cer_lm = store_resutl(result_lm, hparams['wer_lm_file'])
+    wers_lm.append(wer_lm)
+    cers_lm.append(cer_lm)
+
+print('Test wer : {:.3f}'.format(sum(wers) / len(wers)))
+print('\nTest cer : {:.3f}'.format(sum(cers) / len(cers)))
+
+
+print('\n\n\n\n results with lm')
+
+print('Test wer : {:.3f}'.format(sum(wers) / len(wers)))
+print('\nTest cer : {:.3f}'.format(sum(cers) / len(cers)))
