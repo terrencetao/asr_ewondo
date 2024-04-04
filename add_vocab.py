@@ -11,4 +11,4 @@ with open(os.path.join("results",ngram_source), "r", encoding="UTF-8") as read_f
            if not has_added_eos and "ngram 1=" in line:
                count=line.stip().split("=")[-1]
                write_file.write(line.replace(f"{count}", f"{int(count)+1}"))
-           elif not has_added_eos and w
+           #elif not has_added_eos and w

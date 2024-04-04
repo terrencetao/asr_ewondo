@@ -47,7 +47,7 @@ def create_batch(path):
     return data
 
 
-    def compute_metrics(pred):
+def compute_metrics(pred):
     pred_logits = pred.predictions
     pred_ids = np.argmax(pred_logits, axis=-1)
 
