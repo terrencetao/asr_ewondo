@@ -21,13 +21,13 @@ from transformers import Trainer
 from transformers import TrainingArguments
 import numpy as np
 import sentencepiece as spm
-from speechbrain.lobes.augment import TimeDomainSpecAugment
+#from speechbrain.lobes.augment import TimeDomainSpecAugment
 import random 
-do_augment= TimeDomainSpecAugment (speeds=[80, 110, 120],
-                                   perturb_prob=1.0,
-                                   drop_freq_prob=1.0,
-                                  drop_chunk_length_low=1000,
-                                   drop_chunk_length_high=3000)
+#do_augment= TimeDomainSpecAugment (speeds=[80, 110, 120],
+#                                   perturb_prob=1.0,
+#                                   drop_freq_prob=1.0,
+#                                  drop_chunk_length_low=1000,
+#                                   drop_chunk_length_high=3000)
 
 hparams = {
 'output_folder' : "./results",

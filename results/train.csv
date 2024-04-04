@@ -1,0 +1,460 @@
+ID,duration,wav,spk_id,wrd
+loc_005-STE-066,1.3596875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-066.wav,066,bə́ nə bɔ̌bə̄dzǎŋ
+loc_005-STE-021,1.8105625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-021.wav,021,mǎnyǎŋ wama ayilúg
+loc_005-STE-027,3.533625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-027.wav,027,bəfám yǎ dzāl bá lɛ̂ á élé ásí
+loc_005-STE-031,2.872625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-031.wav,031,ongɔlɔ anə m̀fəfə́g mod
+loc_005-STE-102,1.763,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-102.wav,102,ǹnǒm mod élé ásí
+loc_005-STE-060,0.7665,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-060.wav,060,a wɔ́bɔ
+loc_005-STE-085,0.6728125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-085.wav,085,yám
+loc_005-STE-093,1.442125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-093.wav,093,miǹkúd myávín
+loc_005-STE-062,1.3565625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-062.wav,062,mvyě e nə vé
+loc_005-STE-083,1.7084375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-083.wav,083,a bələ̄ dzwé dáma
+loc_005-STE-055,1.2996875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-055.wav,055,a nə ebyandí
+loc_005-STE-078,1.888,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-078.wav,078,a tádi nə̌ atyé m̀bíl
+loc_005-STE-013,1.11225,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-013.wav,013,o nə kaiza
+loc_005-STE-075,1.2813125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-075.wav,075,a bɔ́ bía m̀bəŋ
+loc_005-STE-042,1.0798125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-042.wav,042,ma yón âfan
+loc_005-STE-056,0.9145625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-056.wav,056,a nə fəg
+loc_005-STE-023,1.856875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-023.wav,023,é miníngá nyɔ́ a nyəb
+loc_005-STE-058,1.1483125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-058.wav,058,ma kə kə óyɔ́
+loc_005-STE-007,1.361125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-007.wav,007,bə́sə bə́ nə mvɔɛ́
+loc_005-STE-016,1.856,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-016.wav,016,ma wóg ekódé
+loc_005-STE-069,1.2830625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-069.wav,069,bikai bí nə
+loc_005-STE-048,0.8628125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-048.wav,048,ma kɔn
+loc_005-STE-038,1.1209375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-038.wav,038,ma bad tsog
+loc_005-STE-052,0.97675,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-052.wav,052,ma fas
+loc_005-STE-088,1.027375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-088.wav,088,ma wóg sɔ́m
+loc_005-STE-054,0.71975,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-054.wav,054,wa ding
+loc_005-STE-018,1.057125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-018.wav,018,mə nə abum
+loc_005-STE-072,1.19025,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-072.wav,072,ma yəm afan
+loc_005-STE-087,1.1495625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-087.wav,087,a yen mininagá
+loc_005-STE-084,1.139,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-084.wav,084,ma kus biyé
+loc_005-STE-008,0.952875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-008.wav,008,ma kə ǎfub
+loc_005-STE-081,1.02925,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-081.wav,081,mə̌ sende
+loc_005-STE-010,1.294625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-010.wav,010,ma kə á ǹsom
+loc_005-STE-003,2.3634375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-003.wav,003,yə ndâ bod dzoe e nə mvoɛ́
+loc_005-STE-035,1.95725,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-035.wav,035,mayi nə̄ madí
+loc_005-STE-097,0.8210625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-097.wav,097,a búg fón
+loc_005-STE-043,1.586375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-043.wav,043,evúndi yá lod
+loc_005-STE-029,2.546875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-029.wav,029,kúb ya lɔ́ŋ á kídí
+loc_005-STE-006,0.992375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-006.wav,006,mə nə mvɔɛ́
+loc_005-STE-032,2.1279375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-032.wav,032,bə́ngɔnɔ anyú mə́ndím
+loc_005-STE-041,1.4085625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-041.wav,041,ma ding və wa
+loc_005-STE-011,1.06775,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-011.wav,011,a kə á mákíd
+loc_005-STE-099,1.0846875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-099.wav,099,a nə ewólo
+loc_005-STE-051,0.9855625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-051.wav,051,wa sɔ́ vé
+loc_005-STE-101,1.3078125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-101.wav,101,o nə engongɔ́l
+loc_005-STE-063,2.2846875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-063.wav,063,etǔn ndá dzáma é nə vé
+loc_005-STE-040,1.4136875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-040.wav,040,mim̀bú myálod
+loc_005-STE-094,1.04625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-094.wav,094,ngə mə yəmə
+loc_005-STE-071,1.06325,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-071.wav,071,a dzə́m m̀bəŋ
+loc_005-STE-095,1.2691875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-095.wav,095,ma kədzɔág
+loc_005-STE-015,1.8383125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-015.wav,015,biá yikə̄yén ǹgəngáŋ
+loc_005-STE-045,1.4384375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-045.wav,045,ma kə êsyé
+loc_005-STE-028,2.4070625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-028.wav,028,byakə bəbə mod yǎ fəfə
+loc_005-STE-002,1.412,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-002.wav,002,yə o nə vɔɛ́
+loc_005-STE-096,1.258375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-096.wav,096,a bə́ âfúb
+loc_005-STE-001,1.129375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-001.wav,001,m̀bəmbə amǒs
+loc_005-STE-014,2.0725625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-014.wav,014,ó bələ kíg mbəmbə nyɔ́l
+loc_005-STE-030,2.6585,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-030.wav,030,myál wákuí ai alú
+loc_005-STE-053,1.3766875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-053.wav,053,o nə abán
+loc_005-STE-098,1.3600625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-098.wav,098,a daŋ nyəb á dzǎl
+loc_005-STE-092,1.6793125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-092.wav,092,bí yə̄gé abuí
+loc_005-STE-044,1.575375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-044.wav,044,ǹnə́m wá sán nyé
+loc_005-STE-034,3.0625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-034.wav,034,mɔ́n zing a byálí é kídí nyí
+loc_005-STE-000,1.1000625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-000.wav,000,m̀bəmbə kídi
+loc_005-STE-080,1.472,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-080.wav,080,dzam éngóngɔ́l
+loc_005-STE-025,3.6430625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-025.wav,025,ǹtól mǎnyǎŋ wama ayǎb a lodo ma
+loc_005-STE-082,1.373625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-082.wav,082,ma dzə́ŋ bílɔ́g
+loc_005-STE-059,1.56125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-059.wav,059,vááni nyé bídí
+loc_005-STE-009,1.12525,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-009.wav,009,ma yám bídí
+loc_005-STE-026,2.7578125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-026.wav,026,mə nə ǹtól mɔ́n bəbonde báma
+loc_005-STE-019,1.5621875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-019.wav,019,a ngâyiyǎbyé
+loc_005-STE-073,0.969875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-073.wav,073,a bɔ́d m̀bəŋ
+loc_005-STE-064,1.5535,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-064.wav,064,esɔ́á anə vé
+loc_005-STE-068,1.88775,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-068.wav,068,ma kə á dulu okídí
+loc_005-STE-022,1.9744375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-022.wav,022,fám yáyónkíg
+loc_005-STE-057,1.8200625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-057.wav,057,a bə̌bə ǹló dzóbo
+loc_005-STE-061,1.1844375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-061.wav,061,kələ́ fəb ndóan
+loc_005-STE-089,1.91375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-089.wav,089,a dúgan á ndá dzié
+loc_005-STE-077,1.1003125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-077.wav,077,bə́ nə ā zěn
+loc_005-STE-079,1.50975,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-079.wav,079,ma və́ wa ǹtsogán
+loc_005-STE-020,1.6676875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-020.wav,020,naná a nə mvɔɛ́
+loc_005-STE-067,1.738,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-067.wav,067,ńnyə anə́ ńtól
+loc_005-STE-091,1.4771875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-091.wav,091,wa dzáɛ abǒg
+loc_005-STE-090,1.2971875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-090.wav,090,a tádi nə ayón
+loc_005-STE-076,1.6079375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-076.wav,076,bəyə́bə yǎ dzāl
+loc_005-STE-037,0.98975,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-037.wav,037,bá fulan
+loc_005-STE-005,1.185625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-005.wav,005,dzé wā bɔ
+loc_005-STE-100,1.1755625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-100.wav,100,ma wóg miǹtag
+loc_005-STE-039,1.4046875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-039.wav,039,é nə mvóé dzama
+loc_005-STE-024,1.627875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-024.wav,024,é fám nyí ya nyəb
+loc_005-STE-046,0.8724375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-046.wav,046,ma yəbə
+loc_005-STE-004,1.05025,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_005/STE-004.wav,004,wa kə vé
+loc_003-STE-066,3.0639375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-066.wav,066,bə́ nə bɔ̌bə̄dzǎŋ
+loc_003-STE-021,3.287125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-021.wav,021,mǎnyǎŋ wama ayilúg
+loc_003-STE-027,6.0705,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-027.wav,027,bəfám yǎ dzāl bá lɛ̂ á élé ásí
+loc_003-STE-031,3.583125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-031.wav,031,ongɔlɔ anə m̀fəfə́g mod
+loc_003-STE-102,3.6894375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-102.wav,102,ǹnǒm mod élé ásí
+loc_003-STE-060,1.7110625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-060.wav,060,a wɔ́bɔ
+loc_003-STE-085,1.3243125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-085.wav,085,yám
+loc_003-STE-093,3.100875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-093.wav,093,miǹkúd myávín
+loc_003-STE-062,3.1490625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-062.wav,062,mvyě e nə vé
+loc_003-STE-083,2.915375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-083.wav,083,a bələ̄ dzwé dáma
+loc_003-STE-055,2.4873125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-055.wav,055,a nə ebyandí
+loc_003-STE-078,3.36775,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-078.wav,078,a tádi nə̌ atyé m̀bíl
+loc_003-STE-013,2.4751875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-013.wav,013,o nə kaiza
+loc_003-STE-075,2.7425,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-075.wav,075,a bɔ́ bía m̀bəŋ
+loc_003-STE-042,2.4010625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-042.wav,042,ma yón âfan
+loc_003-STE-056,1.667,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-056.wav,056,a nə fəg
+loc_003-STE-023,3.4201875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-023.wav,023,é miníngá nyɔ́ a nyəb
+loc_003-STE-058,2.696,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-058.wav,058,ma kə kə óyɔ́
+loc_003-STE-007,3.053375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-007.wav,007,bə́sə bə́ nə mvɔɛ́
+loc_003-STE-016,2.3648125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-016.wav,016,ma wóg ekódé
+loc_003-STE-069,2.584125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-069.wav,069,bikai bí nə
+loc_003-STE-048,1.549875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-048.wav,048,ma kɔn
+loc_003-STE-038,1.84375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-038.wav,038,ma bad tsog
+loc_003-STE-052,2.663625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-052.wav,052,ma fas
+loc_003-STE-088,2.2983125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-088.wav,088,ma wóg sɔ́m
+loc_003-STE-054,1.611375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-054.wav,054,wa ding
+loc_003-STE-018,1.6191875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-018.wav,018,mə nə abum
+loc_003-STE-072,2.81375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-072.wav,072,ma yəm afan
+loc_003-STE-087,3.7445625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-087.wav,087,a yen mininagá
+loc_003-STE-084,2.352125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-084.wav,084,ma kus biyé
+loc_003-STE-008,1.9995625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-008.wav,008,ma kə ǎfub
+loc_003-STE-081,2.4091875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-081.wav,081,mə̌ sende
+loc_003-STE-010,2.3521875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-010.wav,010,ma kə á ǹsom
+loc_003-STE-003,4.467125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-003.wav,003,yə ndâ bod dzoe e nə mvoɛ́
+loc_003-STE-035,2.58625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-035.wav,035,mayi nə̄ madí
+loc_003-STE-097,2.213625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-097.wav,097,a búg fón
+loc_003-STE-043,2.480625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-043.wav,043,evúndi yá lod
+loc_003-STE-029,3.6848125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-029.wav,029,kúb ya lɔ́ŋ á kídí
+loc_003-STE-006,2.2663125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-006.wav,006,mə nə mvɔɛ́
+loc_003-STE-032,3.557875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-032.wav,032,bə́ngɔnɔ anyú mə́ndím
+loc_003-STE-041,2.7226875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-041.wav,041,ma ding və wa
+loc_003-STE-011,2.31275,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-011.wav,011,a kə á mákíd
+loc_003-STE-099,2.1816875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-099.wav,099,a nə ewólo
+loc_003-STE-051,2.0065,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-051.wav,051,wa sɔ́ vé
+loc_003-STE-101,2.2649375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-101.wav,101,o nə engongɔ́l
+loc_003-STE-063,4.7865,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-063.wav,063,etǔn ndá dzáma é nə vé
+loc_003-STE-040,2.386375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-040.wav,040,mim̀bú myálod
+loc_003-STE-094,2.6795625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-094.wav,094,ngə mə yəmə
+loc_003-STE-071,2.2568125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-071.wav,071,a dzə́m m̀bəŋ
+loc_003-STE-095,2.0399375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-095.wav,095,ma kədzɔág
+loc_003-STE-015,3.253125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-015.wav,015,biá yikə̄yén ǹgəngáŋ
+loc_003-STE-045,2.0756875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-045.wav,045,ma kə êsyé
+loc_003-STE-028,5.0345,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-028.wav,028,byakə bəbə mod yǎ fəfə
+loc_003-STE-002,2.597625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-002.wav,002,yə o nə vɔɛ́
+loc_003-STE-096,1.827,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-096.wav,096,a bə́ âfúb
+loc_003-STE-001,3.08425,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-001.wav,001,m̀bəmbə amǒs
+loc_003-STE-014,3.3033125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-014.wav,014,ó bələ kíg mbəmbə nyɔ́l
+loc_003-STE-030,4.533625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-030.wav,030,myál wákuí ai alú
+loc_003-STE-053,1.9,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-053.wav,053,o nə abán
+loc_003-STE-098,2.9621875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-098.wav,098,a daŋ nyəb á dzǎl
+loc_003-STE-092,2.579,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-092.wav,092,bí yə̄gé abuí
+loc_003-STE-044,3.113125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-044.wav,044,ǹnə́m wá sán nyé
+loc_003-STE-034,5.509625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-034.wav,034,mɔ́n zing a byálí é kídí nyí
+loc_003-STE-000,2.847125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-000.wav,000,m̀bəmbə kídi
+loc_003-STE-080,2.597125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-080.wav,080,dzam éngóngɔ́l
+loc_003-STE-025,6.1283125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-025.wav,025,ǹtól mǎnyǎŋ wama ayǎb a lodo ma
+loc_003-STE-082,2.4213125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-082.wav,082,ma dzə́ŋ bílɔ́g
+loc_003-STE-059,3.0876875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-059.wav,059,vááni nyé bídí
+loc_003-STE-009,2.54625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-009.wav,009,ma yám bídí
+loc_003-STE-026,5.4608125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-026.wav,026,mə nə ǹtól mɔ́n bəbonde báma
+loc_003-STE-019,2.6764375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-019.wav,019,a ngâyiyǎbyé
+loc_003-STE-073,2.233,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-073.wav,073,a bɔ́d m̀bəŋ
+loc_003-STE-064,3.4906875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-064.wav,064,esɔ́á anə vé
+loc_003-STE-068,3.36325,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-068.wav,068,ma kə á dulu okídí
+loc_003-STE-022,2.996875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-022.wav,022,fám yáyónkíg
+loc_003-STE-057,3.3728125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-057.wav,057,a bə̌bə ǹló dzóbo
+loc_003-STE-061,2.8375625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-061.wav,061,kələ́ fəb ndóan
+loc_003-STE-089,3.27825,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-089.wav,089,a dúgan á ndá dzié
+loc_003-STE-077,2.1769375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-077.wav,077,bə́ nə ā zěn
+loc_003-STE-079,3.2171875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-079.wav,079,ma və́ wa ǹtsogán
+loc_003-STE-020,2.790875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-020.wav,020,naná a nə mvɔɛ́
+loc_003-STE-067,2.602625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-067.wav,067,ńnyə anə́ ńtól
+loc_003-STE-091,2.017375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-091.wav,091,wa dzáɛ abǒg
+loc_003-STE-090,2.883,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-090.wav,090,a tádi nə ayón
+loc_003-STE-076,3.0874375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-076.wav,076,bəyə́bə yǎ dzāl
+loc_003-STE-037,1.9036875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-037.wav,037,bá fulan
+loc_003-STE-005,2.39975,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-005.wav,005,dzé wā bɔ
+loc_003-STE-100,2.2035625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-100.wav,100,ma wóg miǹtag
+loc_003-STE-039,2.656125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-039.wav,039,é nə mvóé dzama
+loc_003-STE-024,2.9864375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-024.wav,024,é fám nyí ya nyəb
+loc_003-STE-046,1.7178125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-046.wav,046,ma yəbə
+loc_003-STE-004,2.1615625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_003/STE-004.wav,004,wa kə vé
+loc_001-STE-066,4.6288125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-066.wav,066,bə́ nə bɔ̌bə̄dzǎŋ
+loc_001-STE-021,4.371875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-021.wav,021,mǎnyǎŋ wama ayilúg
+loc_001-STE-027,9.53625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-027.wav,027,bəfám yǎ dzāl bá lɛ̂ á élé ásí
+loc_001-STE-031,6.26275,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-031.wav,031,ongɔlɔ anə m̀fəfə́g mod
+loc_001-STE-102,6.1015,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-102.wav,102,ǹnǒm mod élé ásí
+loc_001-STE-060,1.425375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-060.wav,060,a wɔ́bɔ
+loc_001-STE-085,1.1026875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-085.wav,085,yám
+loc_001-STE-093,4.8965,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-093.wav,093,miǹkúd myávín
+loc_001-STE-062,4.9225625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-062.wav,062,mvyě e nə vé
+loc_001-STE-083,3.8165,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-083.wav,083,a bələ̄ dzwé dáma
+loc_001-STE-055,3.065,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-055.wav,055,a nə ebyandí
+loc_001-STE-078,5.313625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-078.wav,078,a tádi nə̌ atyé m̀bíl
+loc_001-STE-013,3.745875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-013.wav,013,o nə kaiza
+loc_001-STE-075,4.12175,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-075.wav,075,a bɔ́ bía m̀bəŋ
+loc_001-STE-042,3.0975,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-042.wav,042,ma yón âfan
+loc_001-STE-056,1.806125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-056.wav,056,a nə fəg
+loc_001-STE-023,1.8455625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-023.wav,023,é miníngá nyɔ́ a nyəb
+loc_001-STE-058,3.40725,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-058.wav,058,ma kə kə óyɔ́
+loc_001-STE-007,5.1215625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-007.wav,007,bə́sə bə́ nə mvɔɛ́
+loc_001-STE-016,3.2795625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-016.wav,016,ma wóg ekódé
+loc_001-STE-069,4.3563125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-069.wav,069,bikai bí nə
+loc_001-STE-048,1.940375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-048.wav,048,ma kɔn
+loc_001-STE-038,1.968875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-038.wav,038,ma bad tsog
+loc_001-STE-052,2.4734375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-052.wav,052,ma fas
+loc_001-STE-088,2.6694375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-088.wav,088,ma wóg sɔ́m
+loc_001-STE-054,1.59225,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-054.wav,054,wa ding
+loc_001-STE-018,3.417,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-018.wav,018,mə nə abum
+loc_001-STE-072,3.406875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-072.wav,072,ma yəm afan
+loc_001-STE-087,2.8250625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-087.wav,087,a yen mininagá
+loc_001-STE-084,2.467875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-084.wav,084,ma kus biyé
+loc_001-STE-008,3.099,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-008.wav,008,ma kə ǎfub
+loc_001-STE-081,3.144375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-081.wav,081,mə̌ sende
+loc_001-STE-010,3.615,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-010.wav,010,ma kə á ǹsom
+loc_001-STE-003,5.6728125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-003.wav,003,yə ndâ bod dzoe e nə mvoɛ́
+loc_001-STE-035,3.53325,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-035.wav,035,mayi nə̄ madí
+loc_001-STE-097,3.278125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-097.wav,097,a búg fón
+loc_001-STE-043,3.5944375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-043.wav,043,evúndi yá lod
+loc_001-STE-029,4.632,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-029.wav,029,kúb ya lɔ́ŋ á kídí
+loc_001-STE-006,3.0089375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-006.wav,006,mə nə mvɔɛ́
+loc_001-STE-032,5.179875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-032.wav,032,bə́ngɔnɔ anyú mə́ndím
+loc_001-STE-041,2.664875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-041.wav,041,ma ding və wa
+loc_001-STE-011,4.4375625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-011.wav,011,a kə á mákíd
+loc_001-STE-099,3.3831875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-099.wav,099,a nə ewólo
+loc_001-STE-051,2.26925,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-051.wav,051,wa sɔ́ vé
+loc_001-STE-101,3.965625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-101.wav,101,o nə engongɔ́l
+loc_001-STE-063,5.16725,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-063.wav,063,etǔn ndá dzáma é nə vé
+loc_001-STE-040,4.01975,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-040.wav,040,mim̀bú myálod
+loc_001-STE-094,2.588,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-094.wav,094,ngə mə yəmə
+loc_001-STE-071,2.8993125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-071.wav,071,a dzə́m m̀bəŋ
+loc_001-STE-095,2.427125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-095.wav,095,ma kədzɔág
+loc_001-STE-015,5.7118125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-015.wav,015,biá yikə̄yén ǹgəngáŋ
+loc_001-STE-045,3.8464375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-045.wav,045,ma kə êsyé
+loc_001-STE-028,7.76125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-028.wav,028,byakə bəbə mod yǎ fəfə
+loc_001-STE-002,3.3841875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-002.wav,002,yə o nə vɔɛ́
+loc_001-STE-096,2.585,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-096.wav,096,a bə́ âfúb
+loc_001-STE-001,3.65475,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-001.wav,001,m̀bəmbə amǒs
+loc_001-STE-014,4.7621875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-014.wav,014,ó bələ kíg mbəmbə nyɔ́l
+loc_001-STE-030,6.7115,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-030.wav,030,myál wákuí ai alú
+loc_001-STE-053,2.4771875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-053.wav,053,o nə abán
+loc_001-STE-098,4.5311875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-098.wav,098,a daŋ nyəb á dzǎl
+loc_001-STE-092,4.4939375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-092.wav,092,bí yə̄gé abuí
+loc_001-STE-044,3.64325,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-044.wav,044,ǹnə́m wá sán nyé
+loc_001-STE-034,5.5898125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-034.wav,034,mɔ́n zing a byálí é kídí nyí
+loc_001-STE-000,3.0085625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-000.wav,000,m̀bəmbə kídi
+loc_001-STE-080,3.084625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-080.wav,080,dzam éngóngɔ́l
+loc_001-STE-025,6.6658125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-025.wav,025,ǹtól mǎnyǎŋ wama ayǎb a lodo ma
+loc_001-STE-082,2.417125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-082.wav,082,ma dzə́ŋ bílɔ́g
+loc_001-STE-059,3.5550625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-059.wav,059,vááni nyé bídí
+loc_001-STE-009,4.03075,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-009.wav,009,ma yám bídí
+loc_001-STE-026,5.3075625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-026.wav,026,mə nə ǹtól mɔ́n bəbonde báma
+loc_001-STE-019,4.0205,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-019.wav,019,a ngâyiyǎbyé
+loc_001-STE-073,2.86025,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-073.wav,073,a bɔ́d m̀bəŋ
+loc_001-STE-064,4.0995,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-064.wav,064,esɔ́á anə vé
+loc_001-STE-068,4.715125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-068.wav,068,ma kə á dulu okídí
+loc_001-STE-022,4.568875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-022.wav,022,fám yáyónkíg
+loc_001-STE-057,3.477375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-057.wav,057,a bə̌bə ǹló dzóbo
+loc_001-STE-061,3.7863125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-061.wav,061,kələ́ fəb ndóan
+loc_001-STE-089,5.2244375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-089.wav,089,a dúgan á ndá dzié
+loc_001-STE-077,2.831625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-077.wav,077,bə́ nə ā zěn
+loc_001-STE-079,3.765875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-079.wav,079,ma və́ wa ǹtsogán
+loc_001-STE-020,4.917125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-020.wav,020,naná a nə mvɔɛ́
+loc_001-STE-067,3.549875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-067.wav,067,ńnyə anə́ ńtól
+loc_001-STE-091,3.82775,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-091.wav,091,wa dzáɛ abǒg
+loc_001-STE-090,3.023875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-090.wav,090,a tádi nə ayón
+loc_001-STE-076,2.9585625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-076.wav,076,bəyə́bə yǎ dzāl
+loc_001-STE-037,2.07175,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-037.wav,037,bá fulan
+loc_001-STE-005,1.758375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-005.wav,005,dzé wā bɔ
+loc_001-STE-100,3.429375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-100.wav,100,ma wóg miǹtag
+loc_001-STE-039,3.1576875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-039.wav,039,é nə mvóé dzama
+loc_001-STE-024,8.831125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-024.wav,024,é fám nyí ya nyəb
+loc_001-STE-046,1.6903125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_001/STE-046.wav,046,ma yəbə
+loc_004-STE-066,2.173,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-066.wav,066,bə́ nə bɔ̌bə̄dzǎŋ
+loc_004-STE-021,2.010875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-021.wav,021,mǎnyǎŋ wama ayilúg
+loc_004-STE-027,6.6344375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-027.wav,027,bəfám yǎ dzāl bá lɛ̂ á élé ásí
+loc_004-STE-031,3.2385,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-031.wav,031,ongɔlɔ anə m̀fəfə́g mod
+loc_004-STE-102,3.54625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-102.wav,102,ǹnǒm mod élé ásí
+loc_004-STE-060,1.52775,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-060.wav,060,a wɔ́bɔ
+loc_004-STE-085,1.4545,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-085.wav,085,yám
+loc_004-STE-093,3.282875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-093.wav,093,miǹkúd myávín
+loc_004-STE-062,1.9306875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-062.wav,062,mvyě e nə vé
+loc_004-STE-083,2.955375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-083.wav,083,a bələ̄ dzwé dáma
+loc_004-STE-055,2.3499375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-055.wav,055,a nə ebyandí
+loc_004-STE-078,3.638375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-078.wav,078,a tádi nə̌ atyé m̀bíl
+loc_004-STE-013,2.0420625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-013.wav,013,o nə kaiza
+loc_004-STE-075,2.0951875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-075.wav,075,a bɔ́ bía m̀bəŋ
+loc_004-STE-042,2.7289375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-042.wav,042,ma yón âfan
+loc_004-STE-056,1.4624375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-056.wav,056,a nə fəg
+loc_004-STE-023,2.5675,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-023.wav,023,é miníngá nyɔ́ a nyəb
+loc_004-STE-058,2.6881875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-058.wav,058,ma kə kə óyɔ́
+loc_004-STE-007,2.8904375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-007.wav,007,bə́sə bə́ nə mvɔɛ́
+loc_004-STE-016,2.1098125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-016.wav,016,ma wóg ekódé
+loc_004-STE-069,2.4941875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-069.wav,069,bikai bí nə
+loc_004-STE-048,1.58775,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-048.wav,048,ma kɔn
+loc_004-STE-038,1.7781875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-038.wav,038,ma bad tsog
+loc_004-STE-052,2.4936875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-052.wav,052,ma fas
+loc_004-STE-088,2.0694375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-088.wav,088,ma wóg sɔ́m
+loc_004-STE-054,1.5653125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-054.wav,054,wa ding
+loc_004-STE-018,2.0859375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-018.wav,018,mə nə abum
+loc_004-STE-072,2.10025,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-072.wav,072,ma yəm afan
+loc_004-STE-087,2.5426875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-087.wav,087,a yen mininagá
+loc_004-STE-084,2.469,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-084.wav,084,ma kus biyé
+loc_004-STE-008,2.32025,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-008.wav,008,ma kə ǎfub
+loc_004-STE-081,2.1979375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-081.wav,081,mə̌ sende
+loc_004-STE-010,2.58475,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-010.wav,010,ma kə á ǹsom
+loc_004-STE-003,3.0941875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-003.wav,003,yə ndâ bod dzoe e nə mvoɛ́
+loc_004-STE-035,2.0620625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-035.wav,035,mayi nə̄ madí
+loc_004-STE-097,2.093375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-097.wav,097,a búg fón
+loc_004-STE-043,2.0059375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-043.wav,043,evúndi yá lod
+loc_004-STE-029,2.8255625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-029.wav,029,kúb ya lɔ́ŋ á kídí
+loc_004-STE-006,2.7625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-006.wav,006,mə nə mvɔɛ́
+loc_004-STE-032,2.6714375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-032.wav,032,bə́ngɔnɔ anyú mə́ndím
+loc_004-STE-041,2.6509375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-041.wav,041,ma ding və wa
+loc_004-STE-011,1.888875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-011.wav,011,a kə á mákíd
+loc_004-STE-099,2.03025,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-099.wav,099,a nə ewólo
+loc_004-STE-051,1.7659375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-051.wav,051,wa sɔ́ vé
+loc_004-STE-101,2.418375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-101.wav,101,o nə engongɔ́l
+loc_004-STE-063,2.919875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-063.wav,063,etǔn ndá dzáma é nə vé
+loc_004-STE-040,2.72975,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-040.wav,040,mim̀bú myálod
+loc_004-STE-094,1.9749375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-094.wav,094,ngə mə yəmə
+loc_004-STE-071,1.994625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-071.wav,071,a dzə́m m̀bəŋ
+loc_004-STE-095,2.3168125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-095.wav,095,ma kədzɔág
+loc_004-STE-015,2.6695,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-015.wav,015,biá yikə̄yén ǹgəngáŋ
+loc_004-STE-045,2.405125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-045.wav,045,ma kə êsyé
+loc_004-STE-028,4.2083125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-028.wav,028,byakə bəbə mod yǎ fəfə
+loc_004-STE-002,1.990375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-002.wav,002,yə o nə vɔɛ́
+loc_004-STE-096,1.8633125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-096.wav,096,a bə́ âfúb
+loc_004-STE-001,2.589125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-001.wav,001,m̀bəmbə amǒs
+loc_004-STE-014,2.5768125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-014.wav,014,ó bələ kíg mbəmbə nyɔ́l
+loc_004-STE-030,4.6701875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-030.wav,030,myál wákuí ai alú
+loc_004-STE-053,1.864875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-053.wav,053,o nə abán
+loc_004-STE-098,3.146875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-098.wav,098,a daŋ nyəb á dzǎl
+loc_004-STE-092,2.4465625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-092.wav,092,bí yə̄gé abuí
+loc_004-STE-044,2.905625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-044.wav,044,ǹnə́m wá sán nyé
+loc_004-STE-034,3.2815625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-034.wav,034,mɔ́n zing a byálí é kídí nyí
+loc_004-STE-000,2.1095,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-000.wav,000,m̀bəmbə kídi
+loc_004-STE-080,2.633625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-080.wav,080,dzam éngóngɔ́l
+loc_004-STE-025,6.2574375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-025.wav,025,ǹtól mǎnyǎŋ wama ayǎb a lodo ma
+loc_004-STE-082,2.3485,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-082.wav,082,ma dzə́ŋ bílɔ́g
+loc_004-STE-059,2.1745,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-059.wav,059,vááni nyé bídí
+loc_004-STE-009,2.2130625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-009.wav,009,ma yám bídí
+loc_004-STE-026,6.4065625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-026.wav,026,mə nə ǹtól mɔ́n bəbonde báma
+loc_004-STE-019,2.260875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-019.wav,019,a ngâyiyǎbyé
+loc_004-STE-073,2.0509375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-073.wav,073,a bɔ́d m̀bəŋ
+loc_004-STE-064,2.172875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-064.wav,064,esɔ́á anə vé
+loc_004-STE-068,2.8339375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-068.wav,068,ma kə á dulu okídí
+loc_004-STE-022,2.3195625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-022.wav,022,fám yáyónkíg
+loc_004-STE-057,3.3550625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-057.wav,057,a bə̌bə ǹló dzóbo
+loc_004-STE-061,2.65975,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-061.wav,061,kələ́ fəb ndóan
+loc_004-STE-089,2.981875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-089.wav,089,a dúgan á ndá dzié
+loc_004-STE-077,2.19275,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-077.wav,077,bə́ nə ā zěn
+loc_004-STE-079,2.4584375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-079.wav,079,ma və́ wa ǹtsogán
+loc_004-STE-020,2.259375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-020.wav,020,naná a nə mvɔɛ́
+loc_004-STE-067,2.3965,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-067.wav,067,ńnyə anə́ ńtól
+loc_004-STE-091,2.116625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-091.wav,091,wa dzáɛ abǒg
+loc_004-STE-090,3.1730625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-090.wav,090,a tádi nə ayón
+loc_004-STE-076,2.6710625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-076.wav,076,bəyə́bə yǎ dzāl
+loc_004-STE-037,1.5465,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-037.wav,037,bá fulan
+loc_004-STE-005,1.99225,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-005.wav,005,dzé wā bɔ
+loc_004-STE-100,2.3579375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-100.wav,100,ma wóg miǹtag
+loc_004-STE-039,2.318,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-039.wav,039,é nə mvóé dzama
+loc_004-STE-024,2.2764375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-024.wav,024,é fám nyí ya nyəb
+loc_004-STE-046,2.124625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-046.wav,046,ma yəbə
+loc_004-STE-004,1.7778125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_004/STE-004.wav,004,wa kə vé
+loc_002-STE-066,3.9343125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-066.wav,066,bə́ nə bɔ̌bə̄dzǎŋ
+loc_002-STE-021,5.1349375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-021.wav,021,mǎnyǎŋ wama ayilúg
+loc_002-STE-027,10.7755,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-027.wav,027,bəfám yǎ dzāl bá lɛ̂ á élé ásí
+loc_002-STE-031,6.692,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-031.wav,031,ongɔlɔ anə m̀fəfə́g mod
+loc_002-STE-102,4.769375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-102.wav,102,ǹnǒm mod élé ásí
+loc_002-STE-060,1.811625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-060.wav,060,a wɔ́bɔ
+loc_002-STE-085,1.037875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-085.wav,085,yám
+loc_002-STE-093,4.1743125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-093.wav,093,miǹkúd myávín
+loc_002-STE-062,3.62175,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-062.wav,062,mvyě e nə vé
+loc_002-STE-083,3.2811875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-083.wav,083,a bələ̄ dzwé dáma
+loc_002-STE-055,3.2895,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-055.wav,055,a nə ebyandí
+loc_002-STE-078,5.04725,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-078.wav,078,a tádi nə̌ atyé m̀bíl
+loc_002-STE-013,3.855,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-013.wav,013,o nə kaiza
+loc_002-STE-075,3.2643125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-075.wav,075,a bɔ́ bía m̀bəŋ
+loc_002-STE-042,2.8488125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-042.wav,042,ma yón âfan
+loc_002-STE-056,1.9585625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-056.wav,056,a nə fəg
+loc_002-STE-023,4.4341875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-023.wav,023,é miníngá nyɔ́ a nyəb
+loc_002-STE-058,3.9899375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-058.wav,058,ma kə kə óyɔ́
+loc_002-STE-007,3.8784375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-007.wav,007,bə́sə bə́ nə mvɔɛ́
+loc_002-STE-016,4.56025,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-016.wav,016,ma wóg ekódé
+loc_002-STE-069,3.8610625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-069.wav,069,bikai bí nə
+loc_002-STE-048,1.9443125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-048.wav,048,ma kɔn
+loc_002-STE-038,2.1085,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-038.wav,038,ma bad tsog
+loc_002-STE-052,2.2283125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-052.wav,052,ma fas
+loc_002-STE-088,2.4553125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-088.wav,088,ma wóg sɔ́m
+loc_002-STE-054,1.6358125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-054.wav,054,wa ding
+loc_002-STE-018,3.3269375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-018.wav,018,mə nə abum
+loc_002-STE-072,2.57125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-072.wav,072,ma yəm afan
+loc_002-STE-087,2.6556875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-087.wav,087,a yen mininagá
+loc_002-STE-084,2.6478125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-084.wav,084,ma kus biyé
+loc_002-STE-008,3.6188125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-008.wav,008,ma kə ǎfub
+loc_002-STE-081,2.3063125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-081.wav,081,mə̌ sende
+loc_002-STE-010,3.870375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-010.wav,010,ma kə á ǹsom
+loc_002-STE-003,6.4621875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-003.wav,003,yə ndâ bod dzoe e nə mvoɛ́
+loc_002-STE-035,2.817125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-035.wav,035,mayi nə̄ madí
+loc_002-STE-097,2.1644375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-097.wav,097,a búg fón
+loc_002-STE-043,2.872375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-043.wav,043,evúndi yá lod
+loc_002-STE-029,3.94625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-029.wav,029,kúb ya lɔ́ŋ á kídí
+loc_002-STE-006,2.5775,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-006.wav,006,mə nə mvɔɛ́
+loc_002-STE-032,4.666625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-032.wav,032,bə́ngɔnɔ anyú mə́ndím
+loc_002-STE-041,2.81,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-041.wav,041,ma ding və wa
+loc_002-STE-011,3.7661875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-011.wav,011,a kə á mákíd
+loc_002-STE-099,3.0133125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-099.wav,099,a nə ewólo
+loc_002-STE-051,2.406625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-051.wav,051,wa sɔ́ vé
+loc_002-STE-101,3.4985,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-101.wav,101,o nə engongɔ́l
+loc_002-STE-063,4.9734375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-063.wav,063,etǔn ndá dzáma é nə vé
+loc_002-STE-040,2.9364375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-040.wav,040,mim̀bú myálod
+loc_002-STE-094,2.5738125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-094.wav,094,ngə mə yəmə
+loc_002-STE-071,3.0950625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-071.wav,071,a dzə́m m̀bəŋ
+loc_002-STE-095,2.2920625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-095.wav,095,ma kədzɔág
+loc_002-STE-015,5.839625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-015.wav,015,biá yikə̄yén ǹgəngáŋ
+loc_002-STE-045,3.211375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-045.wav,045,ma kə êsyé
+loc_002-STE-028,5.5170625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-028.wav,028,byakə bəbə mod yǎ fəfə
+loc_002-STE-002,3.730625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-002.wav,002,yə o nə vɔɛ́
+loc_002-STE-096,2.7155,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-096.wav,096,a bə́ âfúb
+loc_002-STE-001,4.189875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-001.wav,001,m̀bəmbə amǒs
+loc_002-STE-014,5.6520625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-014.wav,014,ó bələ kíg mbəmbə nyɔ́l
+loc_002-STE-030,4.9688125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-030.wav,030,myál wákuí ai alú
+loc_002-STE-053,2.7953125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-053.wav,053,o nə abán
+loc_002-STE-098,3.8123125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-098.wav,098,a daŋ nyəb á dzǎl
+loc_002-STE-092,2.606,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-092.wav,092,bí yə̄gé abuí
+loc_002-STE-044,4.02675,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-044.wav,044,ǹnə́m wá sán nyé
+loc_002-STE-034,6.157125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-034.wav,034,mɔ́n zing a byálí é kídí nyí
+loc_002-STE-000,3.0898125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-000.wav,000,m̀bəmbə kídi
+loc_002-STE-080,2.8895,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-080.wav,080,dzam éngóngɔ́l
+loc_002-STE-025,8.4931875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-025.wav,025,ǹtól mǎnyǎŋ wama ayǎb a lodo ma
+loc_002-STE-082,2.6878125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-082.wav,082,ma dzə́ŋ bílɔ́g
+loc_002-STE-059,3.3901875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-059.wav,059,vááni nyé bídí
+loc_002-STE-009,3.24325,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-009.wav,009,ma yám bídí
+loc_002-STE-026,6.947,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-026.wav,026,mə nə ǹtól mɔ́n bəbonde báma
+loc_002-STE-019,3.63825,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-019.wav,019,a ngâyiyǎbyé
+loc_002-STE-073,2.3995625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-073.wav,073,a bɔ́d m̀bəŋ
+loc_002-STE-064,4.0529375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-064.wav,064,esɔ́á anə vé
+loc_002-STE-068,5.0295,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-068.wav,068,ma kə á dulu okídí
+loc_002-STE-022,3.2129375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-022.wav,022,fám yáyónkíg
+loc_002-STE-057,3.9595625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-057.wav,057,a bə̌bə ǹló dzóbo
+loc_002-STE-061,2.88975,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-061.wav,061,kələ́ fəb ndóan
+loc_002-STE-089,3.799875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-089.wav,089,a dúgan á ndá dzié
+loc_002-STE-077,3.41025,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-077.wav,077,bə́ nə ā zěn
+loc_002-STE-079,3.8335625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-079.wav,079,ma və́ wa ǹtsogán
+loc_002-STE-020,4.2170625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-020.wav,020,naná a nə mvɔɛ́
+loc_002-STE-067,3.6919375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-067.wav,067,ńnyə anə́ ńtól
+loc_002-STE-091,2.5750625,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-091.wav,091,wa dzáɛ abǒg
+loc_002-STE-090,2.76425,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-090.wav,090,a tádi nə ayón
+loc_002-STE-076,2.7391875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-076.wav,076,bəyə́bə yǎ dzāl
+loc_002-STE-037,1.8319375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-037.wav,037,bá fulan
+loc_002-STE-005,2.6286875,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-005.wav,005,dzé wā bɔ
+loc_002-STE-100,2.7645,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-100.wav,100,ma wóg miǹtag
+loc_002-STE-039,2.923125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-039.wav,039,é nə mvóé dzama
+loc_002-STE-024,4.40125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-024.wav,024,é fám nyí ya nyəb
+loc_002-STE-046,2.069125,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-046.wav,046,ma yəbə
+loc_002-STE-004,2.156375,datasets/Phrases/train/multi-speakers/Corpus Phrases simples/loc_002/STE-004.wav,004,wa kə vé

@@ -1,0 +1,13 @@
+ID,duration,wav,spk_id,wrd
+loc_005-STE-086,1.396875,datasets/Phrases/dev/multi-speakers/Corpus Phrases simples/loc_005/STE-086.wav,086,mayi nə mayəm
+loc_005-STE-070,1.2743125,datasets/Phrases/dev/multi-speakers/Corpus Phrases simples/loc_005/STE-070.wav,070,enyiŋ yá nyəb
+loc_003-STE-086,2.597,datasets/Phrases/dev/multi-speakers/Corpus Phrases simples/loc_003/STE-086.wav,086,mayi nə mayəm
+loc_003-STE-070,2.3584375,datasets/Phrases/dev/multi-speakers/Corpus Phrases simples/loc_003/STE-070.wav,070,enyiŋ yá nyəb
+loc_001-STE-086,3.75875,datasets/Phrases/dev/multi-speakers/Corpus Phrases simples/loc_001/STE-086.wav,086,mayi nə mayəm
+loc_001-STE-070,3.0821875,datasets/Phrases/dev/multi-speakers/Corpus Phrases simples/loc_001/STE-070.wav,070,enyiŋ yá nyəb
+loc_004-STE-086,2.5534375,datasets/Phrases/dev/multi-speakers/Corpus Phrases simples/loc_004/STE-086.wav,086,mayi nə mayəm
+loc_004-STE-070,2.3025,datasets/Phrases/dev/multi-speakers/Corpus Phrases simples/loc_004/STE-070.wav,070,enyiŋ yá nyəb
+loc_002-STE-086,3.170875,datasets/Phrases/dev/multi-speakers/Corpus Phrases simples/loc_002/STE-086.wav,086,mayi nə mayəm
+loc_002-STE-070,3.0945,datasets/Phrases/dev/multi-speakers/Corpus Phrases simples/loc_002/STE-070.wav,070,enyiŋ yá nyəb
+single-speakers-Recording-78,9.984,datasets/Phrases/dev/single-speakers/Recording-78.wav,78,enyiŋ yá nyəb enyiŋ yá nyəb enyiŋ yá nyəb
+single-speakers-Recording-95,13.696,datasets/Phrases/dev/single-speakers/Recording-95.wav,95,mayi nə mayəm mayi nə mayəm mayi nə mayəm
