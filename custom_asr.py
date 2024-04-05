@@ -203,7 +203,7 @@ def compute_metrics(pred):
 
 def map_to_result(batch):
     with torch.no_grad():
-        input_values = torch.tensor(batch["input_values"], device="cuda").unsqueeze(0)
+        input_values = torch.tensor(batch["input_values"], device="cpu").unsqueeze(0)
         logits = model(input_values).logits
     pred_ids = torch.argmax(logits, dim=-1)
     batch['pred_str'] = processor.batch_decode(pred_ids)[0]
