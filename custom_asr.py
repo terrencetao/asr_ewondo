@@ -29,13 +29,18 @@ import random
 #                                  drop_chunk_length_low=1000,
 #                                   drop_chunk_length_high=3000)
 
+arser = argparse.ArgumentParser()
+parser.add_argument('--model', help ='name of model')
+args = parser.parse_args()
+model  = args.model
+
 hparams = {
 'output_folder' : "./results",
 'repo_name': 'YomieNZ/asr_cm_Ewondo',
 'seed': 1986,
 
 # URL for  wav2vec2 model.
-'wav2vec2_hub': 'facebook/wav2vec2-xls-r-300m',
+'wav2vec2_hub': model,
 
 # Data files
 'data_folder': 'datasets/Phrases',
@@ -213,7 +218,7 @@ def map_to_result(batch):
 
 def map_to_result_lm(batch):
     with torch.no_grad():
-        input_values = torch.tensor(batch["input_values"], device="cuda").unsqueeze(0)
+        input_values = torch.tensor(batch["input_values"], device="cpu").unsqueeze(0)
         logits = model(input_values).logits.cpu().numpy()
     
     batch['pred_str'] = processor_with_lm.batch_decode(logits)[0][0]
@@ -222,7 +227,7 @@ def map_to_result_lm(batch):
     
     return batch
 
-def store_resutl(results, fichier):
+def store_resutl(results, model, fichier):
     pred_str = []
     wer_step = []
     label_str = []
@@ -235,9 +240,11 @@ def store_resutl(results, fichier):
                
     data = {'ID':id_aud,'predicitons': pred_str, 'taget': label_str, 'wer':wer_step}
     df = pd.DataFrame(data=data)
-    df.to_csv(fichier)
-    print('Test wer : {:.3f}'.format(wer_metric.compute(predictions=pred_str, references=label_str)))
-    print('\nTest cer : {:.3f}'.format(cer_mertric.compute(predictions=pred_str, references=label_str)))
+    with open(fichier, 'a', newline='') as f:
+        df.to_csv(f, header=f.tell()==0, index=False)
+    
+    print('{} Test wer : {:.3f}'.format(model, wer_metric.compute(predictions=pred_str, references=label_str)))
+    print('\n {} Test cer : {:.3f}'.format(model, cer_mertric.compute(predictions=pred_str, references=label_str)))
     return True
 
     
