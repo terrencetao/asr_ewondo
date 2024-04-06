@@ -29,7 +29,7 @@ import random
 #                                  drop_chunk_length_low=1000,
 #                                   drop_chunk_length_high=3000)
 
-arser = argparse.ArgumentParser()
+parser = argparse.ArgumentParser()
 parser.add_argument('--model', help ='name of model')
 args = parser.parse_args()
 model  = args.model
