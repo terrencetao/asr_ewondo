@@ -348,7 +348,7 @@ results = map(map_to_result, test_data)
 
 
 
-store_resutl(results, hparams['wer_file'])
+store_resutl(results,model, hparams['wer_file'])
 
 
 
@@ -372,4 +372,4 @@ processor_with_lm = Wav2Vec2ProcessorWithLM(
 )
 
 result_lm = map(map_to_result_lm, test_data)
-store_resutl(result_lm, hparams['wer_lm_file'])
+store_resutl(result_lm,model, hparams['wer_lm_file'])

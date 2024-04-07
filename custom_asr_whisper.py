@@ -200,6 +200,7 @@ cer_mertric= load_metric("cer")
 train_data = list(map(prepare_dataset, train_data))
 dev_data = list(map(prepare_dataset, dev_data))
 test_data = list(map(prepare_dataset, test_data))    
+data_collator = DataCollatorSpeechSeq2SeqWithPadding(processor=processor)
     
     
 
@@ -242,7 +243,7 @@ trainer = Seq2SeqTrainer(
     args=training_args,
     compute_metrics=compute_metrics,
     train_dataset=train_data,
-    eval_dataset=dev_data,
+    eval_dataset=test_data,
     tokenizer=processor.feature_extractor,
 )
 
