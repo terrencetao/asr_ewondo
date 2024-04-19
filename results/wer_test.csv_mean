@@ -1,0 +1,9 @@
+model,wer_lm,cer_lm
+facebook/wav2vec2-xls-r-300m,1.0108108108108107,0.9609467455621302
+facebook/wav2vec2-large-xlsr-53,1.0,1.842603550295858
+lucio/wav2vec2-large-xlsr-kinyarwanda,1.0,0.8792899408284024
+Akashpb13/Swahili_xlsr,1.0,1.0
+facebook/wav2vec2-xls-r-300m,1.0,0.9857988165680474
+facebook/wav2vec2-large-xlsr-53,1.037837837837838,1.868639053254438
+facebook/wav2vec2-xls-r-300m,1.0,0.9266272189349113
+facebook/wav2vec2-large-xlsr-53,1.0,1.4875739644970414

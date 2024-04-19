@@ -227,7 +227,7 @@ def map_to_result_lm(batch):
     
     return batch
 
-def store_resutl(results, model, fichier):
+def store_resutl(results, model, fichier, lm):
     pred_str = []
     wer_step = []
     label_str = []
@@ -242,7 +242,14 @@ def store_resutl(results, model, fichier):
     df = pd.DataFrame(data=data)
     with open(fichier, 'a', newline='') as f:
         df.to_csv(f, header=f.tell()==0, index=False)
-    
+    data2 = {}
+    if lm:
+        data2 = {'model':[model],'wer': [wer_metric.compute(predictions=pred_str, references=label_str)], 'cer':[cer_mertric.compute(predictions=pred_str, references=label_str)]}
+    else:
+        data2 = {'model':[model],'wer_lm': [wer_metric.compute(predictions=pred_str, references=label_str)], 'cer_lm':[cer_mertric.compute(predictions=pred_str, references=label_str)]}
+    df1 = pd.DataFrame(data=data2)
+    with open(fichier+'_mean', 'a', newline='') as f:
+        df1.to_csv(f, header=f.tell()==0, index=False)
     print('{} Test wer : {:.3f}'.format(model, wer_metric.compute(predictions=pred_str, references=label_str)))
     print('\n {} Test cer : {:.3f}'.format(model, cer_mertric.compute(predictions=pred_str, references=label_str)))
     return True
@@ -348,7 +355,7 @@ results = map(map_to_result, test_data)
 
 
 
-store_resutl(results,hparams['wav2vec2_hub'], hparams['wer_file'])
+store_resutl(results,hparams['wav2vec2_hub'], hparams['wer_file'], False)
 
 
 
@@ -372,4 +379,4 @@ processor_with_lm = Wav2Vec2ProcessorWithLM(
 )
 
 result_lm = map(map_to_result_lm, test_data)
-store_resutl(result_lm,hparams['wav2vec2_hub'], hparams['wer_lm_file'])
+store_resutl(result_lm,hparams['wav2vec2_hub'], hparams['wer_lm_file'], True)
