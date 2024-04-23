@@ -244,9 +244,10 @@ def store_resutl(results, model, fichier, lm):
         df.to_csv(f, header=f.tell()==0, index=False)
     data2 = {}
     if lm:
-        data2 = {'model':[model],'wer': [wer_metric.compute(predictions=pred_str, references=label_str)], 'cer':[cer_mertric.compute(predictions=pred_str, references=label_str)]}
-    else:
         data2 = {'model':[model],'wer_lm': [wer_metric.compute(predictions=pred_str, references=label_str)], 'cer_lm':[cer_mertric.compute(predictions=pred_str, references=label_str)]}
+    else:
+        data2 = {'model':[model],'wer': [wer_metric.compute(predictions=pred_str, references=label_str)], 'cer':[cer_mertric.compute(predictions=pred_str, references=label_str)]}
+        
     df1 = pd.DataFrame(data=data2)
     with open(fichier+'_mean', 'a', newline='') as f:
         df1.to_csv(f, header=f.tell()==0, index=False)
