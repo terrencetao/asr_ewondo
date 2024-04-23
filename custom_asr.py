@@ -29,10 +29,15 @@ import random
 #                                  drop_chunk_length_low=1000,
 #                                   drop_chunk_length_high=3000)
 
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', help ='name of model')
+parser.add_argument('--token', help ='method')
 args = parser.parse_args()
 model  = args.model
+tok = args.token
+vocab_file = "data/vocab_"+tok + ".json"
+
 
 hparams = {
 'output_folder' : "./results",
@@ -227,7 +232,7 @@ def map_to_result_lm(batch):
     
     return batch
 
-def store_resutl(results, model, fichier, lm):
+def store_resutl(results, model, fichier, tok, lm):
     pred_str = []
     wer_step = []
     label_str = []
@@ -244,9 +249,9 @@ def store_resutl(results, model, fichier, lm):
         df.to_csv(f, header=f.tell()==0, index=False)
     data2 = {}
     if lm:
-        data2 = {'model':[model],'wer_lm': [wer_metric.compute(predictions=pred_str, references=label_str)], 'cer_lm':[cer_mertric.compute(predictions=pred_str, references=label_str)]}
+        data2 = {'model':[model],'wer_lm': [wer_metric.compute(predictions=pred_str, references=label_str)], 'tokenizer':tok, 'cer_lm':[cer_mertric.compute(predictions=pred_str, references=label_str)]}
     else:
-        data2 = {'model':[model],'wer': [wer_metric.compute(predictions=pred_str, references=label_str)], 'cer':[cer_mertric.compute(predictions=pred_str, references=label_str)]}
+        data2 = {'model':[model],'wer': [wer_metric.compute(predictions=pred_str, references=label_str)], 'tokenizer':tok, 'cer':[cer_mertric.compute(predictions=pred_str, references=label_str)]}
         
     df1 = pd.DataFrame(data=data2)
     with open(fichier+'_mean', 'a', newline='') as f:
@@ -280,7 +285,7 @@ test_data = create_batch(hparams["test_csv"],aug=False)
 
 print('vocabulaire created')
 
-tokenizer = Wav2Vec2CTCTokenizer(hparams['vocab_file'], unk_token="[UNK]", pad_token="[PAD]", word_delimiter_token="|")
+tokenizer = Wav2Vec2CTCTokenizer(vocab_file, unk_token="[UNK]", pad_token="[PAD]", word_delimiter_token="|")
 
 feature_extractor = Wav2Vec2FeatureExtractor(feature_size=1, sampling_rate=16000, padding_value=0.0, do_normalize=True, return_attention_mask=False)
 
@@ -321,7 +326,7 @@ training_args = TrainingArguments(
   per_device_train_batch_size=8,
     gradient_accumulation_steps=2,
     evaluation_strategy="steps",
-    num_train_epochs=60,
+    num_train_epochs=1,
     gradient_checkpointing=True,
     fp16=False,
     save_steps=100,
@@ -356,7 +361,7 @@ results = map(map_to_result, test_data)
 
 
 
-store_resutl(results,hparams['wav2vec2_hub'], hparams['wer_file'], False)
+store_resutl(results,hparams['wav2vec2_hub'], hparams['wer_file'],tok, False)
 
 
 
@@ -380,4 +385,4 @@ processor_with_lm = Wav2Vec2ProcessorWithLM(
 )
 
 result_lm = map(map_to_result_lm, test_data)
-store_resutl(result_lm,hparams['wav2vec2_hub'], hparams['wer_lm_file'], True)
+store_resutl(result_lm,hparams['wav2vec2_hub'], hparams['wer_lm_file'], tok, True)

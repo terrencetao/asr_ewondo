@@ -30,4 +30,11 @@ sentences for the test (2min30s) and 92 remaining sentences for the
 training (21min51s)
 
 #### 1.3 running:
-`python custom_asr.py`
+- Define the tokenization method:
+ All: letter + tone ,  char: tone separate to letter and BPE
+ 
+`python3 custom_tokenizer.py --dataset train --tokenizer all`
+
+- Running asr
+
+`python3 custom_asr.py --model $model --$tok`

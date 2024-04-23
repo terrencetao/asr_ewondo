@@ -2,7 +2,7 @@ import sentencepiece as spm
 import json
 hparams = {
         'train': 'data/train.txt',
-       'vocab_file': 'data/vocab.json',
+       'vocab_file': 'data/vocab_all.json',
         'tok_model':'m_char.model',
         }
 spm.SentencePieceTrainer.train('--input='+hparams['train'] + '  --model_prefix=m_char --vocab_size=100 --model_type=char --normalization_rule_name=nfkc_cf')
