@@ -60,7 +60,7 @@ hparams = {
 'vocab_file': "data/vocab_char.json",
 'tok_model': 'data/m_char.model',
 'wer_file':"results/wer_test.csv",
-'lm':'results/5gram.arpa',
+'lm':'results/2gram.arpa',
 'wer_lm_file':"results/wer_lm_test.csv",
 # training parameter
 'sample_rate': 16000
